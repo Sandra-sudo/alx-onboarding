@@ -1,0 +1,11 @@
+SUMMING POSITIVE USER INPUTS
+
+START
+LET a variable be called a
+LET b be random user inputs
+IF b > 0
+    THEN
+        a = a +  b
+    ELSE
+        return a
+

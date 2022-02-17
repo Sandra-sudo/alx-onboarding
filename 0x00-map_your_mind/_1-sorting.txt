@@ -1,0 +1,38 @@
+SORT AN ARRAY OF THREE NUMBERS IN ASCENDING ORDER
+
+START
+INPUT a as an array of three numbers
+    a = [1, 5,2]
+CREATE an array b, of sorted a
+MAP through a
+    IF a[0] < a[1] 
+    ElSE IF if a[1] < a[2]
+        THEN
+            PUSH a[1] into b
+                THEN
+                    IF a[0] < a[2]
+                        THEN
+                            PUSH a[0] into b
+                            PUSH a[2] into b
+        ELSE 
+            PUSH a[2] into b
+            PUSH a[1] into b
+            push a[0] into b
+
+    THEN 
+        IF a[0] < a[2]
+        ELSE
+            PUSH a[2] into b
+            PUSH a[0] into b
+            PUSH a[1] into b
+        THEN
+            PUSH a[0] into b
+            THEN
+                IF a[1] < a[2]
+                THEN
+                    PUSH a[1] into b
+                    PUSH a[2] into b
+                ElSE
+                    PUSH a[2] into b
+                    PUSH a[1] into b
+

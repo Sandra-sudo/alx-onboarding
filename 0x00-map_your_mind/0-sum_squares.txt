@@ -1,0 +1,5 @@
+CALCULATE THE SUM OF SQUARES OF GIVEN INPUT OF NUMBERS
+
+Start
+Input values a, b, c
+Sum a^2 + b^2 + c^2
